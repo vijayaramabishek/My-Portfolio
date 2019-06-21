@@ -8,41 +8,53 @@
 			margin: 0px;
 			height: 100%;
 		}
+		img
+		{
+			width: 140px;
+			height: 140px;
+		}
 		.left
 		{
 			padding-top: 40px;
-			padding-left: 45px;
-			font-size: 30px;
 			display: flex;
 			flex-direction: column;
 		}
+		button
+		{
+			width: 200px;
+			height: 40px;
+			background-color: blue;
+			font-size: 25px;
+		}
 		a
 		{
-			color: white;
+			color: orange;
+			text-decoration: none;
 		}
 		.space
 		{
 			margin-top: 24px;
 			background-size: 75%;
+			border-radius: 12px;
 		}
 		#navigation
 		{
-			margin: 0px;
 			width:200px;
 			height:100%;
-			background-color:black;
-			border: 5px solid black;
+			background-color:grey;
+			border: 5px solid grey;
 			position: fixed;
+		}
 	</style>
 </head>
 <body>
 <div id="navigation">
 		<div class="left">
-			<font class="space" color="white"><div><a href="index.html">Home</a></div></font>
-			<font class="space" color="white"><div><a href="skills.html">Skills</a></div></font>
-			<font class="space" color="white"><div><a href="projects.html">Projects</a></div></font>
-			<font class="space" color="white"><div><a href="resume.html">Resume</a></div></font>
-			<font class="space" color="white"><div><a href="blog.html">Blog</a></div></font>
+			<button class="space" color="white"><a href="index.html">Home</a></button>
+			<button class="space" color="white"><a href="skills.html">Skills</a></button>
+			<button class="space" color="white"><a href="projects.html">Projects</a></button>
+			<button class="space" color="white"><a href="Vijay_Profile.pdf">Resume</a></button>
+			<button class="space" color="white"><a href="blog.html">Blog</a></button>
 		</div>
 </body>
 </html>
